@@ -1,0 +1,103 @@
+*{box-sizing: border-box;}
+
+body{
+    background-color: #000;
+    color: #fff;
+    overflow: hidden;
+    display: flex;
+}
+
+
+.form-box{ 
+    width: 400px;
+    height: 100vh;
+    margin: 0 auto;
+
+}  
+
+.form {
+    background-color: #415761;
+    border-radius: 15px;
+    margin-top: 200px;
+    width: 100%;
+    height: 364px;
+
+}
+  
+.form-inner{
+    width: 80%;
+    display: flex;
+    flex-direction: column; 
+    margin: 0 auto;
+}
+.form-inner input,label{
+    width: 100%;
+  
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 36px;
+}
+
+label{
+    font-size: 22px;
+    font-weight: 400;
+    color: #14151d;
+    margin-bottom: 8px;  
+}
+
+input {
+    background-color: #14151d;
+    border: 0;
+    color: #ffffff;
+    font-size: 18px;
+    outline: 0;
+    padding: 7px 10px;
+    margin-bottom: 15px;
+    border-radius: 2px;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+.btn {
+    background-color: #888686;
+    border-radius: 5px;
+    border: 0;
+    color: #14151d;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 700;
+    height: 45px;
+    margin-top: 20px;
+    outline: 0;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.btn:active {
+    background-color: #42465f;;
+}
+
+.info-box{
+    position: absolute;
+    top: 0;
+    left: 300px;
+    right: 300px;
+    height: auto;
+    padding: 20px 15px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #14151d;
+}
+
+.hide{
+    display: none;
+}
+
+
